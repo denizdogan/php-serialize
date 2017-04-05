@@ -1,6 +1,6 @@
 'use babel'
 
-import { serialize, unserialize } from '../'
+import { serialize, unserialize } from '../src'
 
 describe('unserialize', function() {
   function testOutput(testSubject, scope) {
